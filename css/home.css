@@ -371,6 +371,31 @@ p {
     background-color: var(--verdeBlanco2);
     transform: scale(1.1);
 }
+/* Aviso de privacidad de datos y Cookies */
+
+.privacidad {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-privacidad {
+    padding: 15px 40px;
+    margin: 0 20px;
+    border: 2px solid var(--negro);
+    border-radius: 10px;
+    background-color: var(--verdeClaro);
+    font-family: var(--font-titulos);
+    font-size: 20px;
+    color: var(--negro);
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.btn-privacidad:hover {
+    background-color: var(--verdeBlanco2);
+    transform: scale(1.1);
+}
 
 .redes {
     display: flex;
