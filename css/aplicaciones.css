@@ -403,6 +403,10 @@ p {
         text-align: center;
     }
 
+    .app-bloque.invertido {
+        flex-direction: column;
+    }
+
     .niveles {
         flex-direction: column;
     }
