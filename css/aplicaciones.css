@@ -146,6 +146,12 @@ p {
     width: 100%;
     max-width: 700px;
     border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.app-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .app-texto {
@@ -204,6 +210,12 @@ p {
     background: var(--verdeBlanco2);
     padding: 20px;
     border-radius: 10px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.nivel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .nivel h3, h4 {
@@ -258,6 +270,12 @@ p {
     font-size: 18px;
 
     text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.pago-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* IMAGEN */
